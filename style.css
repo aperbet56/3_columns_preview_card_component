@@ -104,3 +104,28 @@ body {
     cursor: pointer;
     color: var(--transparent-white);
 }
+
+/**** Responsive design version desktop ****/
+
+@media screen and (min-width: 992px) {
+    .container {
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .card__container {
+        padding: 62px;
+    }
+
+    .card__container.one {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .card__container.three {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .card__container__text {
+        margin-bottom: 100px;
+    }
+}
