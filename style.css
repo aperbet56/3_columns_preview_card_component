@@ -126,6 +126,6 @@ body {
     }
 
     .card__container__text {
-        margin-bottom: 100px;
+        height: 240px;
     }
 }
