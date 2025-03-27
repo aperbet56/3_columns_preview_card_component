@@ -1,0 +1,106 @@
+/**** Importation des polices ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+/**** Variables CSS ****/
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+}
+
+/**** reset ****/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** body ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-light-gray);
+}
+
+.container {
+    width: 85%;
+    height: auto;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__container {
+    padding: 40px;
+}
+
+.card__container.one {
+    background-color: var(--bright-orange);
+    border-radius: 10px 10px 0 0;
+}
+
+.card__container.two {
+    background-color: var(--dark-cyan);
+}
+
+.card__container.three {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 10px 10px;
+}
+
+.card__container__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Big Shoulders", sans-serif;
+    color: var(--very-light-gray);
+    margin: 30px 0;
+}
+
+.card__container__text {
+    font-family: "Lexend Deca", sans-serif;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: var(--transparent-white);
+}
+
+.card__container__btn {
+    background-color: #ffffff;
+    padding: 15px 35px;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: "Lexend Deca", sans-serif;
+    transition: background-color 0.3s ease-in-out,
+        color 0.3s ease-in-out,
+        cursor 0.3s ease-in-out;
+}
+
+.card__container__btn.orange {
+    color: var(--bright-orange);
+}
+
+.card__container__btn.dark-cyan {
+    color: var(--dark-cyan);
+}
+
+.card__container__btn.very-dark-cyan {
+    color: var(--very-dark-cyan);
+}
+
+.card__container__btn:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--transparent-white);
+}
