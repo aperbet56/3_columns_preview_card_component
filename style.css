@@ -110,7 +110,6 @@ body {
 @media screen and (min-width: 992px) {
     .container {
         flex-direction: row;
-        margin: 0;
     }
 
     .card__container {
