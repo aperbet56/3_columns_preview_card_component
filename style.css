@@ -43,6 +43,7 @@ body {
 
 .card__container {
     padding: 40px;
+    font-size: 15px;
 }
 
 .card__container.one {
@@ -107,13 +108,13 @@ body {
 
 /**** Responsive design version desktop ****/
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
     .container {
         flex-direction: row;
     }
 
     .card__container {
-        padding: 62px;
+        padding: 75px;
     }
 
     .card__container.one {
