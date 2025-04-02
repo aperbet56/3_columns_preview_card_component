@@ -1,5 +1,7 @@
 ## FRONTEND MENTOR | 3 COLUMNS PREVIEW CARD COMPONENT
 
+![Design preview for the 3 columns preview card component coding challenge](./design/desktop-preview.jpg)
+
 ## Le challenge
 
 Voici ma solution au défi « 3 columns preview card component » sur Frontend Mentor. Les défis Frontend Mentor vous aident à améliorer vos compétences en codage en créant des projets réalistes.
